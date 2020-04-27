@@ -1,0 +1,152 @@
+body {
+ background-color:#e8e8e8;
+ position: absolute;
+ width: 100%;
+}
+
+#topbar{
+ width: 100%;
+ background-color: #cdcdcd;
+ height: 250px;
+ position: fixed;
+ text-align: center;
+ margin: -10px;
+ z-index: 1;
+ color: #000;
+ font-size: 80px;
+ font-family: 'Abhaya Libre', serif;
+ text-transform: uppercase;
+ transition: all 0.9s linear;
+}
+
+.toptitle{
+ text-decoration: underline;
+ text-decoration-color: #ff8a00;
+ margin-top:80px;
+ max-height:60px;
+}
+
+.toptitle a{
+  text-decoration: underline;
+  text-decoration-color: #ff8a00;
+  color: #000;
+}
+
+.links {
+ color: #fff;
+ font-size: 26px;
+ font-family: 'Poppins', san-serif;
+ text-transform: uppercase;
+ width: auto;
+ padding-left: 59px;
+ padding-top: 15px;
+ display: inline-block;
+}
+
+.links a{
+  color: #fff;
+}
+.headings {
+ font-size: 56px;
+ color: #000;
+ font-family: 'Abhaya Libre', serif;
+ text-align: left;
+ width: 950px;
+ display:block;
+ margin: 0 auto;
+ transition: all 0.9s linear;
+}
+
+.paragraph {
+  text-align: left;
+  font-size: 20px;
+  font-family: 'Poppins', san-serif;
+  color:#ff8a00;
+  max-width:950px;
+  display:block;
+  margin: 0 auto;
+}
+
+#container {
+margin-top: 400px;
+text-align: center;
+width: auto;
+height: auto;
+}
+
+.headimg{
+ width: 100%;
+ text-align: center;
+ z-index: 0;
+ color: #fff;
+ font-size: 60px;
+ display:block;
+ padding-top: 40px;
+ padding-bottom: 40px;
+ margin-left: -10px;
+ margin-top: 100px;
+ font-family: 'Abhaya Libre', serif;
+ text-transform: uppercase;
+ text-decoration: underline;
+ text-decoration-color: #ff8a00;
+}
+
+#obj{
+  width: 100%;
+  z-index: 0;
+  font-size: 60px;
+  display:block;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-image: url('../images/bacourmission.jpg');
+ }
+ 
+.objectives {
+ width: 135px;
+ height: 135px;
+ background-color: #ff8a00;
+ opacity: 0.8;
+ padding: 5px;
+ display: inline-block;
+ vertical-align: middle;
+}
+
+.objectives h1 {
+  color: #fff;
+  font-size: 15px;
+  font-family: 'Poppins', san-serif;
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+}
+
+.orgs{
+width: 600px;
+display: inline-block;
+vertical-align: middle;
+}
+
+.orgs h1{
+  background-color: #cdcdcd;
+  font-family: 'Poppins', san-serif;
+  text-transform: uppercase;
+  color: #000;
+  height:130px;
+  font-size: 15px;
+  padding: 5px;
+}
+
+.contact{
+ width: 100%;
+ background-color: #cdcdcd;
+ height: 150px;
+ text-align: left;
+ padding: 20px;
+ margin-left: -10px;
+ margin-top: 200px;
+ z-index: -1;
+ color: #000;
+ font-size: 16px;
+ font-family: 'Poppins', san-serif;
+ text-transform: uppercase; 
+}

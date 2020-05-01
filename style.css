@@ -16,6 +16,10 @@ body {
  font-size: 80px;
  font-family: 'Abhaya Libre', serif;
  text-transform: uppercase;
+ background-image: url("./images/BAC.png");
+ background-repeat: no-repeat;
+ background-position: left;
+ background-size: 250px;
  transition: all 0.9s linear;
 }
 
@@ -130,7 +134,7 @@ vertical-align: middle;
   background-color: #cdcdcd;
   font-family: 'Poppins', san-serif;
   text-transform: uppercase;
-  color: #000;
+  color: white;
   height:130px;
   font-size: 15px;
   padding: 5px;
@@ -146,9 +150,13 @@ vertical-align: middle;
  margin-top: 200px;
  z-index: -1;
  color: #000;
- font-size: 16px;
+ font-size: 15px;
  font-family: 'Poppins', san-serif;
  text-transform: uppercase; 
+ background-image: url("./images/BAC.png");
+ background-repeat: no-repeat;
+ background-position: left;
+ background-size: 250px;
 }
 
 table {

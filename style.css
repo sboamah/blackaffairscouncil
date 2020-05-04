@@ -168,6 +168,12 @@ vertical-align: middle;
  background-size: 250px;
 }
 
+.small-text {
+  font-size: 65%;
+  font-style: italic;
+  text-align: center;
+}
+
 table {
   border: none;
   padding: 10px;
@@ -284,4 +290,15 @@ tr:hover {
 .active,
 .demo:hover {
   opacity: 1;
+}
+
+.Council {
+  text-align: center;
+  padding: 10px;
+}
+
+.pics {
+  width: 350px;
+  height: 600px;
+  border-radius: 35%;
 }

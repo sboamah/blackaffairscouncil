@@ -224,7 +224,7 @@ tr:hover {
   position: absolute;
   bottom: 8px;
   padding-top: 8px;
-  width: 100%;
+  width: 98%;
   text-align: center;
 }
 
@@ -239,9 +239,9 @@ tr:hover {
   cursor: pointer;
   position: absolute;
   width: auto;
-  padding: 16px;
+  padding: 6px;
   color: white;
-  background-color: #ff8a00;
+  background-color: transparent;
   font-weight: bold;
   font-size: 20px;
   user-select: none;

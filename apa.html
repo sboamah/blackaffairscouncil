@@ -7,6 +7,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre&family=Poppins:wght@500&display=swap" rel="stylesheet">
 </head>
 <body>
+  <script src="slideshow.js" defer></script>
 <!-- partial:index.partial.html -->
 <div id="topbar">
   <div class="toptitle"><a href="index.html">Black Affairs Council</a></div>
@@ -17,9 +18,9 @@
   <div class="links"><a href="directory.html">directory</a></div>
 </div>
 <div id="container">
-  <div class="headings"> Alpha Phi Alpha  </div> <br>
+  <div class="headings"> Alpha Phi Alpha Fraternity Inc. </div> <br>
   <div class="paragraph"> Manly Deeds, Scholarship and Love for All Mankind</div> <br>
-  <div class="headimg" style="background:url(bacourmission.jpg);">Mission Statement</div> <br>
+  <div class="headimg" style="background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url('./images/WholeAPA1.jpg');background-size: cover;background-repeat: no-repeat;padding-top: 200px;padding-bottom: 200px"">Mission Statement</div> <br>
   <div class="paragraph" style="color:#000; text-align: center;"> Alpha Phi Alpha Fraternity Incorporated
 develops leaders, promotes brotherhood and academic excellence while providing service and advocacy for our 
 communities </div>
@@ -64,6 +65,49 @@ communities </div>
       </tr>
     </table>
   </div>
+  <br><br><br>
+  <div id="slideshow">
+  <div class="mySlides">
+    <div class="numbertext">1 / 6</div>
+    <img src="images\APA1.JPG" style="width:100%; height: 100%;">
+    <div class="text">The Phi Theta Chapter of AΦA</div>
+  </div>
+
+  <div class="mySlides">
+  <div class="numbertext">2 / 6</div>
+      <img src="images\APA2.JPG" style="width:100%; height: 100%;">
+      <div class="text">AΦA arrives to Stevens Institute of Technology on April 10th, 2019.</div>
+      </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 6</div>
+      <img src="images\APA3.JPG" style="width:100%; height: 100%;">
+      <div class="text">First Initates, Jacques Clovis (left) and Jerome Massicot (right), on December 6th, 2019.</div>
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">4 / 6</div>
+      <img src="images\APA4 copy.jpg" style="width:100%; height: 100%;">
+      <div class="text">AΦA Charter Members enjoying time with their Alpha Advisor.</div>
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 6</div>
+      <img src="images\APA5.jpg" style="width:100%; height: 100%;">
+      <div class="text">The Phi Theta Chapter at their first Storm the Castle.</div>
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">6 / 6</div>
+      <img src="images\APA6.jpg" style="width:100%; height: 100%;">
+      <div class="text">Bro. Joshua Hector winning the "Academic and Leadership Success Award" at the District Conference.</div>
+  </div>
+  <!-- Next and previous buttons -->
+  <div class="arrow">
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div></div>
+
 <div class="contact"> 
   <div style="padding-left: 200px;">
   <strong>Contact Us</strong> 
@@ -72,6 +116,9 @@ communities </div>
   <br>
   <strong>Stevens Advisor</strong> <br>
   nwaite@stevens.edu</div>
+  <div class="small-text">
+    <a href="#top" style="color: white;"> Up to Top </a> <!--A hyperlink to back to the top of the page-->
+  </div>
   </div>
 </div>
 <!-- partial -->
